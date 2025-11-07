@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import FilePanel from './components/FilePanel';
-import ChatPanel from './components/ChatPanel';
+import RightPanel from './components/RightPanel';
 import { UploadedFile } from './types';
 import * as db from './services/db';
 import { readFileAsBase64 } from './utils/helpers';
@@ -65,7 +65,7 @@ function App() {
             />
           </div>
           <div className="md:col-span-2 h-full">
-            <ChatPanel files={files} />
+            <RightPanel files={files} />
           </div>
         </div>
       </main>

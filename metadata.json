@@ -1,5 +1,7 @@
 {
   "name": "Gemini RAG Chatbot",
   "description": "A chatbot that answers questions based on user-uploaded documents (PDFs and images) using Gemini 2.5 Pro. This implements a Retrieval-Augmented Generation (RAG) pattern on the client-side.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [
+    "microphone"
+  ]
 }
